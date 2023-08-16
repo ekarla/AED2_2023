@@ -116,3 +116,9 @@ int ocupacao_heap(t_heap* h){
 int tamanho_heap(t_heap* h){
     return h->tamanho;
 }
+
+void alterar_heap(t_heap* heap, void* chave, void* elem){
+    //busca sequencial
+    //sobe ou desce
+
+}
